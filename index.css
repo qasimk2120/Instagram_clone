@@ -1,6 +1,8 @@
+@import url('https://fonts.cdn.cdnfonts.com/css/instagram-sans-script');
 *{
     margin: 0;
     padding: 0;
+    font-family:  'Instagram Sans Script', 'sans-serif';
 }
 .container{
     display: flex;
