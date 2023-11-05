@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+}
+.sidebar{
+    width: 20vw;
+    border-right: 0.5px solid black; 
+    height: 100vh;
+    overflow: none;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: space-between;
+
+}
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.main{
+    height: 100vh;
+    overflow-x: none ;
+    overflow-y: scroll;
+    width: 80vw;
+}
+#brand-logo {
+    width: 10vw;
+    padding: 5px;
+    margin: 10px 5px 30px 5px;
+    max-width: 500px;
+    box-sizing: border-box;
+}
+
+.sidebar-item{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-bottom: 15px;
+   
+
+}
+.sidebar-item >p {
+    margin-top :5px;
+    margin-left: 20px;
+    padding: 5px;
+
+}
+.fa-solid{
+    font-size:25px ;
+    padding: 5px;
+}
+.profile-img{
+    margin:10px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
