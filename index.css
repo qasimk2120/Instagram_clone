@@ -62,3 +62,10 @@
     width: 50px;
     height: 50px;
 }
+.card {
+    border: none ;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 1px #888888;
+    height: auto;
+    width: 450px;
+}
